@@ -1,0 +1,109 @@
+body {
+    font-family: "Dosis", sans-serif;
+  }
+  
+  h1 {
+    font-weight: 100;
+    font-style: italic;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+  
+  .cover-img {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .cover-img img {
+    height: 500px;
+    width: 100%;
+    transition: transform 2s;
+  }
+  
+  .cover-img:hover img {
+    transform: scale(1.2);
+  }
+  
+  .cover-img:hover .details {
+    display: inline;
+  }
+  
+  .details {
+    height: 100%;
+    width: 100%;
+    display: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.8);
+    display: none;
+  }
+  
+  .details .content {
+    position: relative;
+    top: 20%;
+  }
+  
+  .bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .bottom a,
+  button {
+    margin: 5px;
+  }
+  
+  @media screen and (max-width: 576px) {
+    .cover-img img {
+      padding: 0 30px;
+      height: 400px;
+    }
+  }
+  
+    .cartdiv {
+      display: block;
+      cursor: pointer;
+    }
+    .link1
+    {
+      margin-left: 100px;
+      margin-top: 100px;
+      font-size:larger;
+      font-family:'Times New Roman', Times, serif;
+      /* font-weight: 1000; */
+      /* font-Weight: 500;
+      font-Size: "3rem"; */
+      /* margin:300; */
+      text-Decoration: none;
+      color: #ffffff
+      ;
+              font-Weight: 300;
+              /* font-Size: 25; */
+    }
+  .lead{
+    text-align: center;
+  }
+  
+  .search{
+    margin-left: 350px;
+    /* width: 100px; */
+    height: 60px;
+    border-radius: 5px;
+  }
+  
+  /* .books
+  {
+    margin-left: 500px;
+    font-family: 'Times New Roman', Times, serif;
+    display:table-cell;
+  } */
+  
+  
+  
+  
+  

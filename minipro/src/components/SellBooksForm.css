@@ -1,0 +1,84 @@
+/* SellBooksForm.scss */
+.sell-books-container {
+    max-width: 600px;
+    margin: 30px auto 20px auto; /* Add margin-bottom for spacing at the bottom */
+    padding: 20px;
+    background-color: #f0f0f0;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    text-align: center; /* Center the content horizontally */
+  }
+  
+  .sell-books-container h2 {
+    margin-bottom: 20px; /* Add margin to separate the heading from the form */
+  }
+  
+  .sell-books-container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+    .form-group {
+      width: 100%;
+      margin-bottom: 15px; /* Add margin bottom to separate form fields */
+      text-align: left; /* Align text to the left within form fields */
+  
+      label {
+        font-weight: bold;
+        margin-bottom: 5px;
+      }
+  
+      input[type="text"],
+      input[type="number"],
+      textarea {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 16px;
+        transition: border-color 0.3s ease;
+      }
+  
+      input[type="text"]:focus,
+      input[type="number"]:focus,
+      textarea:focus {
+        border-color: #007bff; /* Change border color on focus */
+      }
+    }
+  
+    .dropzone {
+      border: 2px dashed #ccc;
+      border-radius: 5px;
+      padding: 20px;
+      text-align: center;
+      cursor: pointer;
+      background-color: #fff;
+      transition: border-color 0.3s ease;
+  
+      &:hover {
+        border-color: #007bff; /* Change border color on hover */
+      }
+  
+      p {
+        font-size: 14px;
+        margin: 0;
+      }
+    }
+  
+    button[type="submit"] {
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+      margin-top: 20px; /* Add margin-top to separate the button from the form */
+      transition: background-color 0.3s ease;
+  
+      &:hover {
+        background-color: #0056b3; /* Darker blue color on hover */
+      }
+    }
+  }
+  

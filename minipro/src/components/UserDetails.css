@@ -1,0 +1,115 @@
+/* UserDetails.css */
+
+/* Container styles */
+.complete {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Title styles */
+.user {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Submitted books list styles */
+.submitted-books-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Book item styles */
+.submitted-books-list li {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 300px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+  cursor: pointer;
+}
+
+/* Book info styles */
+.book-info {
+  margin-bottom: 10px;
+  text-align: left;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* Book image styles */
+.book-image img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Approval status styles */
+.approval-status {
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: left; /* Align "Pending Approval" text to the left */
+}
+
+.approved {
+  color: green;
+}
+
+.pending {
+  color: rgb(255, 0, 0);
+}
+
+/* Action buttons styles */
+.action-buttons {
+  margin-top: auto;
+  text-align: center;
+}
+
+.action-buttons button {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-bottom: 5px;
+}
+
+.action-buttons button:hover {
+  background-color: #c0392b;
+}
+
+/* Card hover effect */
+.submitted-books-list li:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive layout for smaller screens */
+@media (max-width: 768px) {
+  .submitted-books-list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .submitted-books-list li {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}

@@ -1,0 +1,65 @@
+/* Books.css */
+  .books {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center content horizontally */
+    max-width: 1200px; /* Limit the maximum width of the books container */
+    width: 100%;
+    padding: 0 20px; /* Add some horizontal padding */
+  }
+  
+  .book {
+    width: 30%;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    transition: transform 0.3s;
+  }
+  
+  .book:hover {
+    transform: scale(1.05);
+  }
+  
+  .book img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .book h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .book p {
+    font-size: 14px;
+    color: #666;
+    margin: 5px 0;
+  }
+  
+  .loading-message {
+    text-align: center;
+    font-size: 18px;
+    color: #777;
+  }
+  
+  /* Add any additional styling as needed */
+  .books-list
+  {
+    width: 1200px;
+  }
+ /* Assuming you have a class named 'book' for the book container */
+.book {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+}
+
+/* Use CSS to set a fixed size for the book images */
+.img {
+  width: 100px; /* Set the width to your desired size */
+  height: 100px; /* Set the height to your desired size */
+}

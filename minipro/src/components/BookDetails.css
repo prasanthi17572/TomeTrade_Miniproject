@@ -1,0 +1,53 @@
+/* BookDetails.css */
+.book-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  background-color: #f8f8f8;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 100px;
+  font-family: "Your Custom Font", sans-serif; /* Replace with your custom font */
+}
+.book-details:hover {
+  background-color: #8eb4f1;
+}
+.book-details h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.book-details p {
+  font-size: 1rem;
+  margin: 10px 0;
+  color: #555;
+  font-family: "Your Custom Font", sans-serif; /* Replace with your custom font */
+}
+
+.book-details .btn-primary {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  font-family: "Your Custom Font", sans-serif; /* Replace with your custom font */
+}
+
+.book-details .btn-primary:hover {
+  background-color: #fcc11f;
+  transform: scale(1.05); /* Add scale transformation for hover effect */
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3); /* Add box shadow on hover */
+}
+
+/* Change text color on hover for the <p> elements inside .book-details */
+.book-details p:hover {
+  color: #ff9100; /* Change text color to blue on hover */
+}

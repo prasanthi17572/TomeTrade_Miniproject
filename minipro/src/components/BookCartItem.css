@@ -1,0 +1,102 @@
+/* BookCartItem.css */
+
+.book-item {
+    margin: 20px auto; /* Center the entire component horizontally */
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    width: 80%; /* Adjust the width as needed */
+    display: flex; /* Use flex layout to control text and image alignment */
+    align-items: center; /* Center vertically */
+    text-align: left; /* Align text to the left within the container */
+  }
+  
+  .image {
+    max-width: 100px;
+    margin-right: 20px;
+    margin-left: 320px;
+  }
+  
+  .img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  h4 {
+    margin: 0;
+    font-size: 1.25rem;
+    margin-left: 400px;
+  }
+  
+  h6 {
+    margin-top: 5px;
+    color: #555;
+    font-size: 1rem;
+    margin-left: 400px;
+  
+  
+  }
+  
+  h5 {
+    margin-top: 10px;
+    font-size: 1.1rem;
+    margin-left: 400px;
+  }
+  
+  .inputgroup {
+    /* display: flex; */
+    justify-content: center;
+    margin-top: 10px;
+    align-items: center;
+    background-color:#f48814;
+    border: 1px solid #dd1c1c;
+    margin-left: 440px;
+    height: 30px;
+    width:0px;
+    border-radius: 5px;
+    padding-left: 20px;
+    /* margin-bottom: 10px; */
+    
+  }
+  
+  .input-group input {
+    padding: 5px;
+    width: 100%;
+  
+    border: none;
+    text-align: center;
+  }
+  
+  .btn-outline-danger {
+    height: 30px;
+    width:70px;
+    border-radius: 5px;
+    color: #dc3545;
+    border-color: #dc3545;
+    background-color: transparent;
+    margin-left: 430px;
+  }
+  
+  .btn1 {
+    color: #fff;
+    background-color: #d412f1;
+    border-color: #090102;
+    margin-left: 400px;
+    width:100px;
+  }
+  .inputgroup
+  {
+    width: 10px;
+    margin-left: 400px;
+  }
+  
+  @media (max-width: 768px) {
+    .col-lg-3 {
+      flex-basis: 100%;
+      max-width: 100%;
+    }
+  }
+  .title{
+    margin-left: 400px;
+  }

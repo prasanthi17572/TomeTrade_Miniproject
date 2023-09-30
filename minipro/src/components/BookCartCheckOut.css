@@ -1,0 +1,49 @@
+.table
+{
+    width: 500px;
+  border: 10px solid rgb(225, 126, 20);
+  padding: 50px;
+  /* margin: 20px; */
+  margin-left:370px ;
+  border-radius: 10px;
+  background-color: #6d04a1;
+  color:white;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+}
+.table{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+.btn-outline-info
+{
+    width:130px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: rgb(17, 175, 218);
+    border-color: white;
+    
+}
+/* Add this CSS to your BookCartCheckOut.css or your global CSS file */
+
+/* Style for the Checkout button */
+.checkout {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff; /* Change to your preferred button color */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    text-decoration: none; /* Remove underlines for links */
+  
+    /* Add additional styling as needed */
+  }
+  
+  .checkout:hover {
+    background-color: #0056b3; /* Change to the hover color you prefer */
+  }
+  

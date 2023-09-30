@@ -1,0 +1,76 @@
+/* Books.css */
+.books {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Center content horizontally */
+  max-width: 1200px; /* Limit the maximum width of the books container */
+  width: 100%;
+  padding: 0 20px; /* Add some horizontal padding */
+  margin-left: 100px;
+}
+/* Assuming you have a class named 'book' for the book card containers */
+
+
+.book {
+  width: 30%;
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  transition: transform 0.3s;
+}
+
+.book:hover {
+  transform: scale(1.05);
+}
+
+.book img {
+  max-width: 60%;
+  margin-left: 80px;
+  height: auto;
+}
+
+.book h3 {
+  margin: 0;
+  font-size: 18px;
+  color: #333;
+}
+
+.book p {
+  font-size: 14px;
+  color: #666;
+  margin: 5px 0;
+}
+
+.loading-message {
+  text-align: center;
+  font-size: 18px;
+  color: #777;
+}
+
+/* Add any additional styling as needed */
+.books-list
+{
+  width: 1200px;
+}
+.books-container
+{
+  margin-left: 500px;
+}
+
+.btn{
+  flex: 1;
+  padding: 6px 20px;
+  font-size: 1rem;
+  background-color: #ff951c;
+  color: #fff;
+  text-decoration: none; /* Remove underline from links */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  width: 300px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
